@@ -10,6 +10,6 @@ function add_dump_extension($twig)
     return $twig;
 }
 
-if (WP_DEBUG && function_exists('add_filter')) {
+if (defined('WP_DEBUG') && WP_DEBUG && function_exists('add_filter')) {
     add_filter('timber/loader/twig', sprintf('%s\\add_dump_extension', __NAMESPACE__));
 }
