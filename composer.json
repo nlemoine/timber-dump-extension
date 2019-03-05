@@ -20,7 +20,6 @@
     ]
   },
   "require": {
-    "php": "^5.5.9|>=7.0.8",
-    "hellonico/twig-dump-extension": "^0.1.0"
+    "hellonico/twig-dump-extension": "^1.0"
   }
 }
