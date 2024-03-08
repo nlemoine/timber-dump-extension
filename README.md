@@ -1,5 +1,8 @@
 # Timber Dump Extension
 
+![Packagist Downloads](https://img.shields.io/packagist/dt/hellonico/timber-dump-extension)
+![Packagist Version](https://img.shields.io/packagist/v/hellonico/timber-dump-extension)
+
 Symfony VarDumper for Timber.
 
 ## Install
