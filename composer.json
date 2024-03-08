@@ -1,16 +1,22 @@
 {
   "name": "hellonico/timber-dump-extension",
   "description": "Provides Symfony VarDumper component for Timber",
-  "type": "library",
-  "homepage": "https://github.com/nlemoine/timber-dump-extension",
+  "keywords": ["timber", "twig", "symfony", "vardumper", "wordpress"],
   "license": "GPL-3.0+",
+  "type": "library",
   "authors": [
     {
       "name": "Nicolas Lemoine",
-      "email": "dev@helloni.co",
-      "homepage": "https://github.com/nlemoine"
+      "email": "nico@n5s.dev",
+      "homepage": "https://n5s.dev/"
     }
   ],
+  "homepage": "https://github.com/nlemoine/timber-dump-extension",
+  "require": {
+    "symfony/twig-bridge": "^6 || ^7",
+    "symfony/var-dumper": "^6 || ^7",
+    "wecodemore/wordpress-early-hook": "^1.2"
+  },
   "autoload": {
     "psr-4": {
       "HelloNico\\Timber\\": "src/"
@@ -18,8 +24,5 @@
     "files": [
       "functions.php"
     ]
-  },
-  "require": {
-    "hellonico/twig-dump-extension": "^1.0"
   }
 }
