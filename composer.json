@@ -1,7 +1,13 @@
 {
   "name": "hellonico/timber-dump-extension",
   "description": "Provides Symfony VarDumper component for Timber",
-  "keywords": ["timber", "twig", "symfony", "vardumper", "wordpress"],
+  "keywords": [
+    "timber",
+    "twig",
+    "symfony",
+    "vardumper",
+    "wordpress"
+  ],
   "license": "GPL-3.0+",
   "type": "library",
   "authors": [
