@@ -1,34 +1,47 @@
 {
-  "name": "hellonico/timber-dump-extension",
-  "description": "Provides Symfony VarDumper component for Timber",
-  "keywords": [
-    "timber",
-    "twig",
-    "symfony",
-    "vardumper",
-    "wordpress"
-  ],
-  "license": "GPL-3.0+",
-  "type": "library",
-  "authors": [
-    {
-      "name": "Nicolas Lemoine",
-      "email": "nico@n5s.dev",
-      "homepage": "https://n5s.dev/"
-    }
-  ],
-  "homepage": "https://github.com/nlemoine/timber-dump-extension",
-  "require": {
-    "symfony/twig-bridge": "^6 || ^7",
-    "symfony/var-dumper": "^6 || ^7",
-    "wecodemore/wordpress-early-hook": "^1.2"
-  },
-  "autoload": {
-    "psr-4": {
-      "HelloNico\\Timber\\": "src/"
+    "name": "hellonico/timber-dump-extension",
+    "description": "Provides Symfony VarDumper component for Timber",
+    "license": "GPL-3.0+",
+    "type": "library",
+    "keywords": [
+        "timber",
+        "twig",
+        "symfony",
+        "vardumper",
+        "wordpress"
+    ],
+    "authors": [
+        {
+            "name": "Nicolas Lemoine",
+            "email": "nico@n5s.dev",
+            "homepage": "https://n5s.dev/"
+        }
+    ],
+    "homepage": "https://github.com/nlemoine/timber-dump-extension",
+    "support": {
+        "issues": "https://github.com/nlemoine/timber-dump-extension/issues",
+        "source": "https://github.com/nlemoine/timber-dump-extension"
     },
-    "files": [
-      "functions.php"
-    ]
-  }
+    "require": {
+        "php": "^8.2",
+        "n5s/wp-hook-kit": "^1",
+        "symfony/twig-bridge": "^6 || ^7 || ^8",
+        "symfony/var-dumper": "^6 || ^7 || ^8"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.50"
+    },
+    "autoload": {
+        "psr-4": {
+            "HelloNico\\Timber\\": "src/"
+        },
+        "files": [
+            "functions.php"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        }
+    }
 }

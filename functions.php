@@ -2,10 +2,9 @@
 
 namespace HelloNico\Timber;
 
+use n5s\WpHookKit\Hook;
 use Symfony\Bridge\Twig\Extension\DumpExtension;
 use Symfony\Component\VarDumper\Cloner\VarCloner;
-
-use function WeCodeMore\earlyAddFilter;
 
 function add_dump_extension($twig)
 {
@@ -14,4 +13,4 @@ function add_dump_extension($twig)
     }
     return $twig;
 }
-earlyAddFilter('timber/loader/twig', sprintf('%s\\add_dump_extension', __NAMESPACE__));
+Hook::addFilter('timber/loader/twig', sprintf('%s\\add_dump_extension', __NAMESPACE__));
