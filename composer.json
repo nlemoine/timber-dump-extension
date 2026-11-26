@@ -22,6 +22,12 @@
         "issues": "https://github.com/nlemoine/timber-dump-extension/issues",
         "source": "https://github.com/nlemoine/timber-dump-extension"
     },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/nlemoine"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "n5s/wp-hook-kit": "^1",
