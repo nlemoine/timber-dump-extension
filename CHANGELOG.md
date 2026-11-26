@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/nlemoine/timber-dump-extension/compare/v3.0.0...v3.0.1) (2026-11-26)
+
+
+### Miscellaneous Chores
+
+* add GitHub Sponsors to composer funding ([9feecca](https://github.com/nlemoine/timber-dump-extension/commit/9feecca72f32b6fbd90c61a30bedef1eb5da8bcd))
+
 ## [3.0.0](https://github.com/nlemoine/timber-dump-extension/compare/2.0.0...v3.0.0) (2026-04-08)
 
 
